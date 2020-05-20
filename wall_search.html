@@ -143,6 +143,8 @@
             }
             p2_html += '</div>'
 
+            console.log(pmm_html, p2_html, p1_html)
+
             // END OF CODE FOR DEFINING WALLPAPERS
 
             // NOW DEFINE trials
@@ -270,7 +272,9 @@
                 }
                 timeline.push(test_procedure)
             }
-                        
+            
+            console.log(timeline)
+
             jsPsych.init({
                 timeline:timeline,
                 on_finish: function(){
